@@ -80,7 +80,7 @@ export function createList() {
 
     ul.addEventListener('click', function (e) {
         e.target.textContent = e.target.textContent + '!';
-        e.stopPropagation;
+        e.stopPropagation();
     });
     button.addEventListener('click', function () {
         let li = document.createElement('li');
